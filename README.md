@@ -20,6 +20,7 @@ Missing data: 6 creatinine observations, 9 potassium observations (imputed with 
 Mean imputation was applied to preserve sample size, acknowledging this approach assumes data is missing completely at random (MCAR). For production analyses, multiple imputation or sensitivity analyses would be recommended.
 
 **Statistical Approach**
+
 Test Selection Rationale
 I employed a multi-method approach to ensure robust conclusions:
 
@@ -42,6 +43,7 @@ Accounts for potential correlation between creatinine and potassium
 
 
 **Assumption Testing**
+
 Normality (Shapiro-Wilk test):
 
 Creatinine: Groups 1 and 3 normal (p > 0.05); Group 2 violated normality (p < 0.05)
@@ -54,6 +56,7 @@ Both variables showed homogeneous variances across groups (p > 0.05)
 Given the mixed normality results, both parametric and non-parametric tests were warranted.
 
 **Results**
+
 Univariate Tests
 
 All tests failed to reject the null hypothesis of equal group means.
@@ -67,6 +70,7 @@ One-Way MANOVA: No significant difference in the combined renal profile across t
 Both parametric and non-parametric approaches yielded consistent results, strengthening confidence in the conclusion. The treatment protocols studied do not appear to differentially affect renal function markers, which is clinically reassuring for patient safety.
 
 **Visualization**
+
 Overlapping group distributions for both biomarkers
 Slight skewness in Group 2 creatinine (explaining failed normality test)
 Similar central tendencies across all groups
